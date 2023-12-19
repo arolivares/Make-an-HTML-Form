@@ -1,0 +1,32 @@
+.h1{
+    font-size: large;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+   
+
+}
+input [type="text"] {
+    text-decoration: underline;
+    color: blue;
+}
+input [type="email"] {
+    text-decoration: underline;
+    color: blue;
+}
+input [type="tel"] {
+    text-decoration: underline;
+    color: blue;
+}
+input [type="text"] {
+    text-decoration: underline;
+    color: blue;
+}
+span{
+    font-weight:bold;
+    color: blue;
+}
+
+

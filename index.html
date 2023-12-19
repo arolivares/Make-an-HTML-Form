@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    link rel="stylesheet" href="css/style.css">
     <title>Make an HTML Form</title>
 </head>
 <body>
-    <form action="/practice.html" method="POST">
-    
-        <h1>Let's <span color="blue">make</span> something <span color="blue">amazing</span> together</h1>
+   
+        <div class="h1">
+        <h1>Let's make something amazing together</h1>
+        </div>
+        <br>
 
         <label for="your name" name="your name" id="your name"> </label>
         <input type="text" name="your name" id="your name"  placeholder="Your Name"
@@ -23,24 +26,29 @@
         <input type="tel" name="phone" id="phone" required placeholder="Phone Number">
         <br>
 
-        <label for="more" name="more" id="more"></label>
-        <input type="text" name="more" id="more" required placeholder="Tell us more about your project">
+        <label for="text" name="text" id="text"></label>
+        <input type="text" name="text" id="text" span="100%" placeholder="Tell us more about your project">
         <br>
 
         <span>What is your budget?</span>
+        <br>
         <span color="blue">From $300,000 to $500,000</span>
         <label for="budget" name="budget" id="budget"></label>
-        <input type="range" name="budget" id="budget" required min="300,000" max="500,000">
+        <input type="range" name="budget" id="budget" required min="0" max="500,000">
         <br>
         
-        <label for="checkbox" name="checkbox" id="checkbox"></label>
+        <label for="checkbox" name="checkbox" id="checkbox">I don't know</label>
         <input type="checkbox" name="checkbox" id="checkbox" >
+
         <br>
+        <br>
+        <label for="send" name="send" id="send"> </label>
+        <input type="submit" name="Send" id="Send">
 
 
 
 
 
-</form>
+
 </body>
 </html>
